@@ -1,20 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline and block elements in html</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourav & Mariam's Memory Garden</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #ffb6b9;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffe0ac;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .gallery img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #ffd3b6;
+    }
+  </style>
 </head>
-
 <body>
-    <p>hey im am a para</p>
-    <div>I am a block element</div>
-    <a href="http://google.com">Google</a>
-    <span>I am span and i am inline element</span>
-    <a href="">yes he is inline</a>
-
+  <header>
+    <h1>Sourav & Mariam</h1>
+    <p>একসাথে কাটানো ছোট ছোট মূহূর্তগুলোই আমাদের জীবনের সবচেয়ে সুন্দর গল্প</p>
+  </header>  <nav>
+    <a href="#our-story">আমাদের গল্প</a>
+    <a href="#gallery">স্মৃতির গ্যালারি</a>
+    <a href="#writings">লিখা-লিখি</a>
+  </nav>  <section id="our-story">
+    <h2>আমাদের গল্প</h2>
+    <p>এই জায়গাটা শুধু তোমার জন্য মারিয়াম। তুমি যখন আমার পাশে থাকো, সময় থেমে যায় যেন। তুমি আমার হৃদয়ের রাণী, আর আমি তোমার প্রেমে চিরকাল হারিয়ে যেতে চাই।</p>
+  </section>  <section id="gallery">
+    <h2>স্মৃতির গ্যালারি</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/150" alt="Memory 1">
+      <img src="https://via.placeholder.com/150" alt="Memory 2">
+      <img src="https://via.placeholder.com/150" alt="Memory 3">
+    </div>
+  </section>  <section id="writings">
+    <h2>লিখা-লিখি</h2>
+    <p>তোমার জন্য লেখা কবিতা, কথাগুলো এখানে থাকবে।</p>
+    <p>"তুমি আমার সেই স্বপ্ন, যেটা আমি খোলা চোখে দেখি।</p>
+    <p>তুমি সেই নাম, যেটা নিঃশব্দে প্রতিদিন হৃদয়ে উচ্চারিত হয়।"</p>
+  </section>
 </body>
-
 </html>
